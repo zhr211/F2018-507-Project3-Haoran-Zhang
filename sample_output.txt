@@ -1,0 +1,74 @@
+m-c02nh0lhg3qp:W2018-Project3-Solution mwnewman$ python3 proj3_choc_solution.py
+
+Enter a command: bars ratings
+Chuao           Amedei          Italy           5.0  70%  Venezuela (B...
+Pablino         A. Morin        France          4.0  70%  Peru
+Chuao           A. Morin        France          4.0  70%  Venezuela (B...
+Chanchamayo ... A. Morin        France          4.0  63%  Peru
+Morobe          Amano           United State... 4.0  70%  Papua New Gu...
+Guayas          Amano           United State... 4.0  70%  Ecuador
+Porcelana       Amedei          Italy           4.0  70%  Venezuela (B...
+Madagascar      Amedei          Italy           4.0  70%  Madagascar
+Monte Alegre... AMMA            Brazil          4.0  60%  Brazil
+Coto Brus, T... Arete           United State... 4.0  70%  Costa Rica
+
+Enter a command: bars sellcountry=US cocoa bottom=5
+Trinidad        Ethel's Arti... United State... 2.5  55%  Trinidad and...
+O'ahu, N. Sh... Guittard        United State... 3.0  55%  United State...
+O'ahu, N. Sh... Malie Kai (G... United State... 3.5  55%  United State...
+O'ahu, N. Sh... Malie Kai (G... United State... 2.8  55%  United State...
+Uganda          hello cocoa     United State... 2.8  57%  Uganda
+
+Enter a command: companies region=Europe bars_sold
+Bonnat          France          24
+A. Morin        France          23
+Pralus          France          23
+Domori          Italy           20
+Hotel Chocol... United Kingd... 19
+Coppeneur       Germany         18
+Artisan du C... United Kingd... 16
+Szanto Tibor    Hungary         15
+Zotter          Austria         14
+Duffy's         United Kingd... 13
+
+Enter a command: companies ratings top=8
+Patric          United State... 3.8
+Idilio (Felc... Switzerland     3.8
+Amedei          Italy           3.7
+Benoit Nihan... Belgium         3.7
+Michel Cluiz... France          3.7
+Cacao Sampak... Spain           3.7
+Bar Au Choco... United State... 3.6
+Scharffen Be... United State... 3.6
+
+Enter a command: countries bars_sold
+United State... Americas        713
+France          Europe          133
+United Kingd... Europe          106
+Canada          Americas        103
+Ecuador         Americas        55
+Italy           Europe          52
+Australia       Oceania         44
+Germany         Europe          35
+Switzerland     Europe          35
+Belgium         Europe          33
+
+Enter a command: countries region=Asia ratings
+Viet Nam        Asia            3.4
+Israel          Asia            3.2
+Korea (Repub... Asia            3.2
+Japan           Asia            3.1
+
+Enter a command: regions bars_sold
+Americas        1009
+Europe          514
+Oceania         65
+Asia            46
+Africa          26
+
+Enter a command: regions ratings
+Oceania         3.3
+Europe          3.2
+Asia            3.2
+Americas        3.2
+Africa          3.0
